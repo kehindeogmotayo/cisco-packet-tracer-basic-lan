@@ -44,6 +44,31 @@ When a PC sends a ping:
 ## Learning Outcome
 This project strengthens foundational networking concepts such as LAN communication, packet encapsulation, and switch-based forwarding.
 
+
+## Day 2 – Routing & Default Gateway
+
+### Objective
+To understand how devices communicate across different networks using a router and default gateway.
+
+### Concepts Covered
+- Routing (OSI Layer 3)
+- Default Gateway
+- ARP Resolution
+- Inter-network ICMP communication
+
+### Implementation
+- Configured a router with two interfaces
+- Assigned IP addresses to separate subnets
+- Configured default gateways on end devices
+- Verified connectivity using ping
+- Observed packet flow in simulation mode
+
+### Key Insight
+Hosts decide where to send traffic.  
+If the destination is outside the local subnet, packets are forwarded to the default gateway for routing.
+
+
 ## Author
 **Kennhacks**  
+## Ogidan Kehinde Daniel
 Aspiring Network & Cybersecurity Professional And an Ethical Hacker
