@@ -1,4 +1,4 @@
-# Basic LAN Network – Cisco Packet Tracer
+# Day 1: Basic LAN Network – Cisco Packet Tracer
 
 ## Overview
 This project demonstrates a basic Local Area Network (LAN) built using Cisco Packet Tracer.  
