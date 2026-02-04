@@ -68,6 +68,62 @@ Hosts decide where to send traffic.
 If the destination is outside the local subnet, packets are forwarded to the default gateway for routing.
 
 
+# Day 3 — Inter-Network Routing Lab (Cisco Packet Tracer)
+
+## 📌 Project Overview
+This lab demonstrates how devices communicate across different networks using a router. The objective was to configure routing between two subnets and verify connectivity using ICMP testing.
+
+---
+
+## 🎯 Learning Objectives
+- Understand Layer 2 vs Layer 3 communication
+- Configure router interfaces
+- Implement default gateway logic
+- Test inter-network communication
+- Observe packet flow between networks
+
+---
+
+## 🖥️ Network Topology
+
+### Devices Used
+- 1 Router
+- 1 Switch
+- 1 PC
+- 1 Server
+
+### Physical Connections
+- PC → Switch  
+- Switch → Router (GigabitEthernet0/0)  
+- Router (GigabitEthernet0/1) → Server  
+
+---
+
+## 🌐 IP Addressing Scheme
+
+### LAN Network
+| Device | Interface | IP Address |
+|----------|--------------|----------------|
+| Router | Gi0/0 | 192.168.1.1 |
+| PC | NIC | 192.168.1.10 |
+
+### Server Network
+| Device | Interface | IP Address |
+|----------|--------------|----------------|
+| Router | Gi0/1 | 192.168.2.1 |
+| Server | NIC | 192.168.2.2 |
+
+### Default Gateways
+- PC → 192.168.1.1
+- Server → 192.168.2.1
+
+---
+
+## ⚙️ Router Configuration
+
+
+
+
 ## Author
 **Kennhacks**  
 ## Ogidan Kehinde Daniel
